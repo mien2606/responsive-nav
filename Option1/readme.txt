@@ -1,0 +1,1 @@
+Technique based on an article by Thoriq Firdaus at http://www.hongkiat.com/blog/responsive-web-nav/
