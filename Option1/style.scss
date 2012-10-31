@@ -138,6 +138,7 @@ nav li {
 			background-color: #283744;
 			width: 100%;
 			position: relative;
+			left: -15px;
 		
 			&:after {
 				content:"";
@@ -146,7 +147,7 @@ nav li {
 				height: 30px;
 				display: inline-block;
 				position: absolute;
-				right: 30px;
+				right: 15px;
 				top: 10px;
 			}
 		}

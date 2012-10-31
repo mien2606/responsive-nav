@@ -141,8 +141,9 @@ nav a#pull {
     background-color: #283744;
     width: 100%;
     position: relative;
+    left: -15px;
   }
-  /* line 142, style.scss */
+  /* line 143, style.scss */
   nav a#pull:after {
     content: "";
     background: url("nav-icon.png") no-repeat;
@@ -150,19 +151,19 @@ nav a#pull {
     height: 30px;
     display: inline-block;
     position: absolute;
-    right: 30px;
+    right: 15px;
     top: 10px;
   }
 }
 /*Smartphone*/
 @media only screen and (max-width: 320px) {
-  /* line 158, style.scss */
+  /* line 159, style.scss */
   nav li {
     display: block;
     float: none;
     width: 100%;
   }
-  /* line 163, style.scss */
+  /* line 164, style.scss */
   nav li a {
     border-bottom: 1px solid #576979;
   }
