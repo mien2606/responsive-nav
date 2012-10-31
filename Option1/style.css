@@ -51,20 +51,21 @@ nav > ul li:hover ul {
 nav li {
   display: inline-block;
   position: relative;
+  margin: 0px;
 }
-/* line 51, style.scss */
+/* line 52, style.scss */
 nav li a {
   border-right: 1px solid #576979;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-/* line 58, style.scss */
+/* line 59, style.scss */
 nav li:last-child a {
   border-right: 0;
 }
 
-/* line 63, style.scss */
+/* line 64, style.scss */
 nav a {
   color: #fff;
   display: inline-block;
@@ -74,17 +75,17 @@ nav a {
   text-shadow: 1px 1px 0px #283744;
   padding: 10px 15px;
 }
-/* line 73, style.scss */
+/* line 74, style.scss */
 nav a:hover, nav a:active {
   background-color: #8c99a4;
 }
-/* line 77, style.scss */
+/* line 78, style.scss */
 nav a#pull {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-  /* line 85, style.scss */
+  /* line 86, style.scss */
   nav > ul ul {
     position: absolute;
     top: 40px;
@@ -94,47 +95,47 @@ nav a#pull {
 }
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 600px) {
-  /* line 96, style.scss */
+  /* line 97, style.scss */
   nav {
     height: auto;
   }
-  /* line 99, style.scss */
+  /* line 100, style.scss */
   nav ul {
     width: 100%;
     display: block;
     height: auto;
   }
-  /* line 105, style.scss */
+  /* line 106, style.scss */
   nav li {
     position: relative;
   }
-  /* line 108, style.scss */
+  /* line 109, style.scss */
   nav li a {
     border-bottom: 1px solid #576979;
     border-right: 1px solid #576979;
   }
-  /* line 114, style.scss */
+  /* line 115, style.scss */
   nav a {
     width: 100%;
   }
 }
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width: 480px) {
-  /* line 122, style.scss */
+  /* line 123, style.scss */
   nav {
     border-bottom: 0;
   }
-  /* line 125, style.scss */
+  /* line 126, style.scss */
   nav ul {
     display: none;
     height: auto;
   }
-  /* line 130, style.scss */
+  /* line 131, style.scss */
   nav li {
     float: none;
     display: block;
   }
-  /* line 135, style.scss */
+  /* line 136, style.scss */
   nav a#pull {
     display: block;
     background-color: #283744;
@@ -142,7 +143,7 @@ nav a#pull {
     position: relative;
     left: -15px;
   }
-  /* line 142, style.scss */
+  /* line 143, style.scss */
   nav a#pull:after {
     content: "";
     background: url("nav-icon.png") no-repeat;
@@ -156,13 +157,13 @@ nav a#pull {
 }
 /*Smartphone*/
 @media only screen and (max-width: 320px) {
-  /* line 158, style.scss */
+  /* line 159, style.scss */
   nav li {
     display: block;
     float: none;
     width: 100%;
   }
-  /* line 163, style.scss */
+  /* line 164, style.scss */
   nav li a {
     border-bottom: 1px solid #576979;
   }
