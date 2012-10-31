@@ -42,9 +42,6 @@ nav > ul {
 	
 	li:hover ul {
 		display: block;
-		position: absolute;
-		top: 40px;
-		left: 0px;
 	}
 }
 	
@@ -70,8 +67,8 @@ nav li {
 		width: 100px;
 		text-align: center;
 		text-decoration: none;
-		line-height: 40px;
 		text-shadow: 1px 1px 0px #283744;
+		padding: 10px 15px;
 	
 		&:hover,
 		&:active {
@@ -82,6 +79,18 @@ nav li {
 			display: none;
 		}
 	}
+
+
+@media screen and (min-width: 480px) {
+
+	nav > ul ul {
+		position: absolute;
+		top: 40px;
+		left: 0px;
+		display: none;
+	}
+
+}
 
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 600px) {
@@ -137,7 +146,7 @@ nav li {
 				height: 30px;
 				display: inline-block;
 				position: absolute;
-				right: 15px;
+				right: 30px;
 				top: 10px;
 			}
 		}
